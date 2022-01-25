@@ -1,0 +1,12 @@
+.loading-container{
+    height: inherit;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading-icon{
+    margin: 0 auto;
+    height: 30%;
+}

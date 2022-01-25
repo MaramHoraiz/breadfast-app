@@ -1,0 +1,39 @@
+.logo {
+  float: left;
+  width: 25vh;
+  height: 50px;
+}
+.ant-row-rtl .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+.ant-layout-header {
+  margin: auto;
+  display: flex;
+  width: 100%;
+  padding: 0 15%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
+  box-shadow: 0 0 15px rgb(0 0 0 / 5%), 0 25px 25px rgb(0 0 0 / 7%);
+  /* background-color: rgba(255,233,201,.6)!important; */
+  /* background-color: #edffef !important; */
+  background-color: rgb(248 248 248) !important;
+
+  z-index: 10;
+}
+.ant-menu-item {
+  font-size: initial;
+  font-size: initial;
+  font-weight: 600;
+}
+.ant-menu-item-selected::after,
+.ant-menu-item:hover::after {
+  border-bottom: 3px solid #aa0082 !important;
+}
+.ant-menu-item:hover,
+.ant-menu-item-selected {
+  color: #aa0082 !important;
+}

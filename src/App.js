@@ -1,12 +1,15 @@
 import './App.css';
+import { Layout } from 'antd';
+
+import Router from './Router';
+import Header from './components/Header/Header';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-   hii
-      </header>
-    </div>
+    <Layout>
+      <Header />
+      <Router />
+    </Layout>
   );
 }
 
