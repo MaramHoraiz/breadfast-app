@@ -1,0 +1,12 @@
+.posts_grid {
+    height: 84vh;
+    margin: auto;
+    margin-top: 8vh;
+}
+
+.posts_container{
+    width: 70%;
+    margin: auto;
+    box-shadow: 0.3em 0.3em 1em rgb(0 0 0 / 10%);
+background: #f8f8f8;
+}

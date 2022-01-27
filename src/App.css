@@ -15,9 +15,6 @@
   line-height: 120px;
 }
 
-
-
-
 .site-layout-background {
   background: #fff;
 }
@@ -64,4 +61,40 @@
   to {
     transform: rotate(360deg);
   }
+}
+.ag-theme-alpine .ag-header-cell-menu-button:hover,
+.ag-theme-alpine .ag-side-button-button:hover,
+.ag-theme-alpine .ag-tab:hover,
+.ag-theme-alpine .ag-panel-title-bar-button:hover,
+.ag-theme-alpine .ag-header-expand-icon:hover,
+.ag-theme-alpine .ag-column-group-icons:hover,
+.ag-theme-alpine .ag-group-expanded .ag-icon:hover,
+.ag-theme-alpine .ag-group-contracted .ag-icon:hover,
+.ag-theme-alpine .ag-chart-settings-prev:hover,
+.ag-theme-alpine .ag-chart-settings-next:hover,
+.ag-theme-alpine .ag-group-title-bar-icon:hover,
+.ag-theme-alpine .ag-column-select-header-icon:hover,
+.ag-theme-alpine .ag-floating-filter-button-button:hover,
+.ag-theme-alpine .ag-filter-toolpanel-expand:hover,
+.ag-theme-alpine .ag-chart-menu-icon:hover {
+  color: #aa0082 !important;
+}
+.ant-btn:hover,
+.ant-btn:focus {
+  color: #aa0082 !important;
+  border-color: #aa0082 !important;
+}
+.ant-input:hover{
+  border-color: #aa0082 !important;
+
+}
+.ant-btn-primary {
+  color: #aa0082;
+  border-color: #aa0082 !important;
+  background: #fff;
+}
+.ant-btn-primary:hover , .ant-btn-primary:hover, .ant-btn-primary:focus {
+  background: #aa0082;
+  border-color: #aa0082 !important;
+  color: #fff !important;
 }
