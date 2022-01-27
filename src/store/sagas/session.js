@@ -6,6 +6,7 @@ import * as actions from '../actionTypes';
 import {
   fillPostsData,
   deletePostSuccess,
+  editPostSuccess,
 } from '../actionsCreators/session';
 
 /**
@@ -90,6 +91,7 @@ export function* editPostActionEffect(editPostAction) {
   let { payload, resolve, reject } = editPostAction;
   try {
     let data = yield call(editPostApi, payload);
+    yield put(editPostSuccess(payload));
     if (resolve) resolve(data);
   } catch (e) {
     if (reject) reject(e);

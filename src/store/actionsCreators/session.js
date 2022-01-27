@@ -18,3 +18,6 @@ export function fillPostsData(data) {
 export function deletePostSuccess(success) {
   return { type: actions.DELETE_POST_SUCCESS, payload: success };
 }
+export function editPostSuccess(success) {
+  return { type: actions.EDIT_POST_SUCCESS, payload: success };
+}

@@ -4,3 +4,4 @@ export const DELETE_POST_WATCHER = 'DELETE_POST_WATCHER';
 //  Reducer Actions
 export const FILL_POSTS_DATA = 'FILL_POSTS_DATA';
 export const DELETE_POST_SUCCESS = 'DELETE_POST_SUCCESS';
+export const EDIT_POST_SUCCESS = 'EDIT_POST_SUCCESS';
