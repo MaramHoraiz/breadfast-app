@@ -24,7 +24,7 @@ This react project was created using:
 ### Wireframe
 architecture component for Breadfast App
 
-![alt text](https://github.com/MaramHoraiz/breadfast-app/blob/master/public/Breadfast-app-wireframe.png)
+![alt text](https://github.com/MaramHoraiz/breadfast-app/blob/master/public/Breadfast-wireframe.png)
 ### The APIs
 
 - Get all Products 'https://jsonplaceholder.typicode.com/posts (GET)'
