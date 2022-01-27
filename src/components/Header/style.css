@@ -2,6 +2,7 @@
   float: left;
   width: 25vh;
   height: 50px;
+  cursor: pointer;
 }
 .ant-row-rtl .logo {
   float: right;

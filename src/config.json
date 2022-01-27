@@ -1,0 +1,5 @@
+{
+  "getPost": "https://jsonplaceholder.typicode.com/posts",
+  "editDeletePost": "https://jsonplaceholder.typicode.com/posts/{0}"
+
+}
